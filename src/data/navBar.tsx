@@ -1,7 +1,7 @@
 const navLinks = [
     {
         title: 'About',
-        link: '/',
+        link: '/About',
     },
     {
         title: 'Work',
@@ -9,7 +9,7 @@ const navLinks = [
     },
     {
         title: 'Blog',
-        link: '/',
+        link: '/Blog',
     },
     {
         title: 'Note',

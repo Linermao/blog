@@ -31,12 +31,6 @@ function Hero(){
 
                 <Module />
 
-
-
-
-
-
-
             </section>
 
 
