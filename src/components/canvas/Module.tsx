@@ -49,7 +49,7 @@ function Module({ isMobile=false }) {
       </Suspense>
 
       {/* 允许鼠标控制 */}
-      <OrbitControls />
+      {/* <OrbitControls /> */}
     </Canvas>
   );
 };

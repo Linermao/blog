@@ -1,8 +1,8 @@
-import { styles } from '../utils/styles';
+import { styles } from '@/utils/styles/styles';
 
-import Navbar from '../components/Navbar';
-import Hero from '../components/Home/Hero';
-
+import Navbar from '@/components/Navbar';
+import Hero from '@/components/Home/Hero';
+import Blog from '@/components/Home/Blog';
 
 function Home (){
     return (
@@ -10,6 +10,7 @@ function Home (){
             <div className={styles.backgroundColor}>
                 <Navbar />
                 <Hero />
+                <Blog />
             </div>
         </>
     )

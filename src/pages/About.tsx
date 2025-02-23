@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 
-import { styles } from "../utils/styles";
+import { styles } from "../utils/styles/styles";
 import Navbar from "../components/Navbar";
-import { serviceCard } from "../data/about";
+import { d_serviceCard } from "../data/about";
 
 function ServiceCard(){
   return (
     <>
-      {serviceCard.map((card, index) => (
+      {d_serviceCard.map((card, index) => (
         <motion.div
           key={index}
           variants={fadeIn("right", "spring", index * 0.5, 0.75)}

@@ -1,6 +1,6 @@
 import heroBg from '../../assets/herobg.png';
 
-import { styles } from '../../utils/styles';
+import { styles } from '../../utils/styles/styles';
 import Module from '../canvas/Module';
 
 function Hero(){

@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 
-import { styles } from '../utils/styles';
+import { styles } from '../utils/styles/styles';
 import { Link } from 'react-router-dom';
-import { navLinks } from '../data/navBar';
+import { d_navLinks } from '../data/navBar';
 
 import avatar from '../assets/avatar.jpg';
 import menu from '../assets/icons/menu.svg';
@@ -13,7 +13,7 @@ function Navbar (){
 
     return (
         <>
-            <nav className={`w-full px-10 py-4 bg-black flex items-center justify-between shadow-2xl`}>
+            <nav className={`absolute top-0 z-10 w-full px-10 py-4 bg-black flex items-center justify-between shadow-xl`}>
                 
                 {/* Avatar */}
                 <Link to='/' className='flex items-center gap-10'>
@@ -50,7 +50,7 @@ function NavLinks( {isMobile=false} ){
     return (
         <>
             <ul className={`list-none ${isMobile? "flex flex-col" : "sm:flex hidden flex-row" } gap-10`}>
-                { navLinks.map((link, index) => (
+                { d_navLinks.map((link, index) => (
                     <li
                         key={index}
                         className={`${isMobile? "text-xl" : "text-2xl" } ${menuActive === link.title ? "text-white" : "text-gray-400"} font-bold hover:text-white cursor-pointer`}

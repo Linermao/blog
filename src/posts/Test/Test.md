@@ -4,10 +4,4 @@ int main (){
 }
 ```
 
-inline code test 
-
-`:python:import time from time`
-
-<code>123</code>
-
-<div></div>
+inline code `code` inline code

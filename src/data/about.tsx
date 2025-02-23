@@ -1,4 +1,4 @@
-const serviceCard = [
+const d_serviceCard = [
     {
         title: 'AI Developer',
         introduce: 'I am a AI Developer',
@@ -17,4 +17,4 @@ const serviceCard = [
     },
 ]
 
-export { serviceCard };
+export { d_serviceCard };

@@ -1,4 +1,4 @@
-const navLinks = [
+const d_navLinks = [
     {
         title: 'About',
         link: '/About',
@@ -17,4 +17,4 @@ const navLinks = [
     },
 ]
 
-export { navLinks };
+export { d_navLinks };

@@ -13,7 +13,7 @@ const MarkdownRenderer = ({ input="" }) => {
       <div className="">
         <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} 
                        rehypePlugins={[rehypeHighlight, rehypeKatex]}
-                       className="prose prose-code:bg-gray-600 max-w-2xl p-4"
+                       className="prose max-w-2xl p-4"
         >
             {input}
         </ReactMarkdown>
